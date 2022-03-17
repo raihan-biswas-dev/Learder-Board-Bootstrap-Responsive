@@ -1,0 +1,111 @@
+/* Fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style-type: none;
+}
+
+ol,
+ul {
+    padding-left: 0;
+}
+/* 
+.course-text ul {
+    display: flex;
+} */
+
+body {
+    background: #f3f1ff;
+}
+.top-player-heading {
+    padding-top: 1.25rem;
+    color: #562eff;
+}
+
+.course-heading {
+    padding-top: 1.25rem;
+    color: #562eff;
+}
+
+.text-padding {
+    padding: 0px 40px;
+}
+
+.single-course-item {
+    padding: 30px;
+    box-shadow: 1px 0px 6px -4px #000000;
+    text-align: left;
+}
+.single-course-item h3 {
+    color: #1e1e1e;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    padding-top: 10px;
+    /* margin-right: 66px; */
+}
+.single-course-item p {
+    color: #ed6b4f;
+    font-size: 14px;
+    font-weight: 600;
+}
+.single-course-item ul li {
+    color: #ffc014;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.single-course-item .rating-count {
+    color: #a2a2a2;
+    margin: 0 10px;
+}
+
+.rating-watch p {
+    padding: 2px 12px;
+    background: #fee5df;
+}
+
+.row.course-inner.gy-5.d-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.rating-watch .count {
+    margin-left: 10px;
+    color: #ed6b4f;
+    font-weight: 600;
+}
+
+#footer{
+    padding: 8px 0;
+    background: #F3F1FF;
+}
+#footer p{
+    color: #562eff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#footer span{
+    color: #000;
+    font-weight: 700;
+    text-transform: uppercase;
+}
